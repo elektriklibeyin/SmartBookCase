@@ -32,7 +32,7 @@ Yeni Kitap kayıtlarında bir yanlışlık olmaması için isim ve barkod verita
 
 Sistemde karşılaşılabilecek her hata için bilgilendirme mesajı gösterilir. Şifre hatalı, Böyle bir mail yok, tc'no hatalı, bu mail zaten kayıtlı...........
 
-*Tasarımsal olarak pek üstüne düşülmesede, işlevsel olarak eksiksiz, kullanımı kolay ve pratik bir uygulamadır.*
+*Tasarımsal olarak sade, işlevsel olarak eksiksiz, kullanımı kolay ve pratik bir uygulamadır.*
 
 
 
