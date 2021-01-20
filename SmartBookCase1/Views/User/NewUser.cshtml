@@ -178,12 +178,12 @@ if (password.match(/[a-z]/) && password.match(/[A-Z]/) && password.match(/\d/) &
             
             var phn = document.getElementById("phone")
             checkphone(phn.value)
-            //phn.addEventListener('keyup', function () {
-            //        checkphone(phn.value)
-             //   })
+            phn.addEventListener('keyup', function () {
+                    checkphone(phn.value)
+               })
                 function checkphone(phone) {
 
-                    if (phone.match(/^\d{10}$/)) {                //rakam olmayan bir karakter var mı??
+                    if (phone.match(/^\d{11}$/)) {                //rakam olmayan bir karakter var mı??
                         $(document).ready(function () {
                             $("#kydtbtn").prop("disabled", false);
                         })

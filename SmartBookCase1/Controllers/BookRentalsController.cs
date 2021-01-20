@@ -50,6 +50,8 @@ namespace SmartBookCase1.Controllers
                 }
                 b1.MemberID = varmi.MemberID;
                 b1.BookID = (int)Session["BookID"];
+                var forstock = db.BookArchive.Where(i => i.BookID == b1.BookID).SingleOrDefault();
+                forstock.BookStock = forstock.BookStock - 1;
                 b1.UserID = (int)Session["UserID"];
                 b1.IsReturn = false;          
                 b1.ReturnDate = b1.RentDate.AddDays(b1.RentDay); 
